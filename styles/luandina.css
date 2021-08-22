@@ -53,6 +53,29 @@ main section {
   height: calc(100vh - 10rem);
 }
 
+main .flex-luandina {
+  position: absolute;
+  top: -3rem;
+  left: 32rem;
+
+  z-index: 1;
+}
+
+main .flex-luandina img:first-child {
+  width: 88%;
+}
+
+main .flex-luandina-1 {
+  position: relative;
+  top: -20rem;
+  left: 29rem;
+}
+
+main .flex-luandina-1 img {
+  top: 0rem;
+  width: 80%;
+}
+
 .content-describe h1 {
   height: 40vh;
   font-size: 20rem;
@@ -173,4 +196,8 @@ main aside form button {
 .icons-content .icons {
   display: flex;
   align-items: center;
+}
+
+.main-responsivo {
+  display: none;
 }
